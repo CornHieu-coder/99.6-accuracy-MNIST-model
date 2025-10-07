@@ -6,9 +6,14 @@ It is a bit disappointing 99,9% is not achieved. Though, here are some tweaks i 
   3. Switch AdaDelta to AdamW.
   4. Re-write for pytorch to look specifically for CUDA.
   5. Add some transformations to improve variability ( Note that MNIST is an already established dataset that does not have much variations and the numbers are centered. Hence, I aimed for transformations that have little to medium impact only):
+
        a. Random Rotation
+     
        b. Random Affine ( only moving and re-scaling image )
+     
        c. Elastic Distortion ( Mimicking natural hand-writing )
+     
        Note that Elastic Distortion is very impactful in bumping up accuracy. For the sake of reference, i will put the paper that back up my idea here:         https://cognitivemedium.com/assets/rmnist/Simard.pdf
      
      
+Before running code, make sure to install necaessary packages: pip install -r requirements.txt
