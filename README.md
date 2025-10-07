@@ -16,4 +16,4 @@ It is a bit disappointing 99,9% is not achieved. Though, here are some tweaks i 
        Note that Elastic Distortion is very impactful in bumping up accuracy. For the sake of reference, i will put the paper that back up my idea here:         https://cognitivemedium.com/assets/rmnist/Simard.pdf
      
      
-Before running code, make sure to install necaessary packages: pip install -r requirements.txt
+Before running code, make sure to install necessary packages: pip install -r requirements.txt
